@@ -1,13 +1,58 @@
 ---
-title: "Post With Code"
-author: "Harlow Malloc"
-date: "2023-02-13"
-categories: [news, code, analysis]
-image: "image.jpg"
+title: "My_blog"
+author: "Yohann Tesson"
+date: "2023-02-22"
+categories: [package, code]
 ---
 
-This is a post with executable code.
+## [Librairie heron]{.underline}
+
+[Présentation de heron:]{.underline}
+
+Cette librairie est un package constitué d'une fonction heron permettant de calculer la formule héron, c'est-à-dire l'aire d'un triangle. La fonction utilise trois paramètres que sont les côtés de ce polynôme ainsi qu'une fonction intétermédiaire qui calcule le demi-périmètre du triangle.
+
+[Installation de la librairie:]{.underline}
+
+Pour utiliser la librairie depuis github, il faut tout d'abord installer le package remotes via un terminal. On utilise ensuite la commande suivante en spécifiant bien le nom de l'utilisateur et le nom du package (repository)
+
+```{r, eval=FALSE}
+install.packages("remotes")
+remotes::install_github("<votre username>/heron")
+```
 
 ```{r}
-1 + 1
+#| echo: false
+library(targets)
+```
+
+### [Première itération :]{.underline}
+
+```{r}
+#| echo: false
+tar_read("First_plot")
+paste("L'aire du triangle est de ", round(tar_read("Aire_1"),4))
+```
+
+### [Deuxième itération :]{.underline}
+
+```{r}
+#| echo: false
+tar_read("Second_plot")
+paste("L'aire du triangle est de ", round(tar_read("Aire_2"),4))
+```
+
+### [Troisième itération :]{.underline}
+
+```{r}
+#| echo: false
+tar_read("Third_plot")
+paste("L'aire du triangle est de ", round(tar_read("Aire_3"),4))
+```
+
+### [Quatrième itération :]{.underline}
+
+```{r}
+#| echo: false
+tar_read("Fourth_plot")
+paste("L'aire du triangle est de ", round(tar_read("Aire_4"),4))
 ```

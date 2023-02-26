@@ -1,0 +1,14 @@
+{
+  "hash": "4f5467c23427201cb4652c1e62066b8e",
+  "result": {
+    "markdown": "---\ntitle: \"My_blog\"\nauthor: \"Yohann Tesson\"\ndate: \"2023-02-22\"\ncategories: [package, code]\n---\n\n\n## [Librairie heron]{.underline}\n\n[Présentation de heron:]{.underline}\n\nCette librairie est un package constitué d'une fonction heron permettant de calculer la formule héron, c'est-à-dire l'aire d'un triangle. La fonction utilise trois paramètres que sont les côtés de ce polynôme ainsi qu'une fonction intétermédiaire qui calcule le demi-périmètre du triangle.\n\n[Installation de la librairie:]{.underline}\n\nPour utiliser la librairie depuis github, il faut tout d'abord installer le package remotes via un terminal. On utilise ensuite la commande suivante en spécifiant bien le nom de l'utilisateur et le nom du package (repository)\n\n\n::: {.cell}\n\n```{.r .cell-code}\ninstall.packages(\"remotes\")\nremotes::install_github(\"<votre username>/heron\")\n```\n:::\n\n\n### [Première itération :]{.underline}\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

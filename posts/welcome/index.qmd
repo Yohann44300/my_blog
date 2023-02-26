@@ -1,8 +1,8 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2023-02-10"
-categories: [news]
+title: "My blog"
+author: "Yohann Tesson"
+date: "2023-02-15"
+categories: [homework]
 ---
 
 This is the first post in a Quarto blog. Welcome!

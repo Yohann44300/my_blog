@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "My_blog",
+    "section": "",
+    "text": "Présentation de heron:\nCette librairie est un package constitué d’une fonction heron permettant de calculer la formule héron, c’est-à-dire l’aire d’un triangle. La fonction utilise trois paramètres que sont les côtés de ce polynôme ainsi qu’une fonction intétermédiaire qui calcule le demi-périmètre du triangle.\nInstallation de la librairie:\nPour utiliser la librairie depuis github, il faut tout d’abord installer le package remotes via un terminal. On utilise ensuite la commande suivante en spécifiant bien le nom de l’utilisateur et le nom du package (repository)\n\ninstall.packages(\"remotes\")\nremotes::install_github(\"<votre username>/heron\")"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "A propos :\nL’objectif de ce blog est de manipuler les différents concepts R vu lors des différents cours : fonctions et packages, documents quarto, et études reproductibles avec targets et renv notamment.\nAuteur :\nYohann Tesson, étudiant en première année de master 1 ECAP."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "My blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "my_blog",
+    "section": "",
+    "text": "My_blog\n\n\n\n\n\n\n\npackage\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nYohann Tesson\n\n\n\n\n\n\n  \n\n\n\n\nMy blog\n\n\n\n\n\n\n\nhomework\n\n\n\n\n\n\n\n\n\n\n\nFeb 15, 2023\n\n\nYohann Tesson\n\n\n\n\n\n\nNo matching items"
+  }
+]
